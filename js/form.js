@@ -15,7 +15,7 @@ botaoAdicionar.addEventListener("click", function(event) {
     }
 
     adicionarPacienteNaTabela(paciente);
-
+    alert("Você registrou o paciente com sucesso!");
     form.reset();
 
     var mensagensErro = document.querySelector("#mensagens-erro");
